@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Jorge — El Curioso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-links-left" style="display:flex;gap:32px;">
+      <a href="#">Inicio</a>
+      <a href="#meet">Conócelo</a>
+      <a href="#warnings">Cuidado</a>
+    </div>
+    <a href="#" class="nav-logo">JORGE</a>
+    <div class="nav-links-right" style="display:flex;gap:32px;align-items:center;">
+      <a href="#feeding">Dieta</a>
+      <a href="#space">Espacio</a>
+      <a href="#" class="nav-btn">Visítalo</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <span class="hero-emoji">🐒</span>
+      <h1>Jorge<span>El monito más travieso</span></h1>
+      <p class="hero-subtitle">Bueno de corazón, travieso por naturaleza. Antes de acercarte, conocé las reglas.</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MEET JORGE -->
+  <section class="section-meet" id="meet">
+    <div class="section-inner">
+      <div class="meet-grid">
+        <div class="meet-visual reveal">
+          <div class="monkey-circle-decoration"></div>
+          <div class="carousel-container">
+            <div class="carousel-wrapper" id="carouselWrapper">
+              <div class="carousel-slide">
+                <img src="./images/1.jpeg" alt="Jorge Foto 1">
+              </div>
+              <div class="carousel-slide">
+                <img src="./images/2.jpeg" alt="Jorge Foto 2">
+              </div>
+              <div class="carousel-slide">
+                <img src="./images/3.jpeg" alt="Jorge Foto 3">
+              </div>
+            </div>
+            <div class="carousel-nav" id="carouselNav">
+              <button class="carousel-dot active" data-index="0"></button>
+              <button class="carousel-dot" data-index="1"></button>
+              <button class="carousel-dot" data-index="2"></button>
+            </div>
+          </div>
+        </div>
+        <div class="meet-text">
+          <h2 class="reveal">Conocé a<br><em>Jorge</em></h2>
+          <p class="reveal reveal-delay-1">Es un Mono Aullador (nombre cientifico: Alouatta caraya), conocido localmente en Py como Karaja. Es bueno, cariñoso y lleno de energía — pero con un lado travieso que no podés ignorar. Te va a robar el corazón… y probablemente también tus cosas.</p>
+          <p class="reveal reveal-delay-2">Antes de interactuar con él, es fundamental que conozcas sus reglas. No es malo, simplemente es un mono siendo mono.</p>
+          <div class="reveal reveal-delay-3" style="margin-top: 24px;">
+            <span class="personality-tag">Travieso</span>
+            <span class="personality-tag">Curioso</span>
+            <span class="personality-tag">Ágil</span>
+            <span class="personality-tag">Fit</span>
+            <span class="personality-tag">Veloz</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WARNINGS -->
+  <section class="section-warnings" id="warnings">
+    <div class="section-inner">
+      <div class="warnings-header">
+        <p class="reveal">Reglas de convivencia</p>
+        <h2 class="reveal reveal-delay-1">Lo que debés<br>saber antes</h2>
+      </div>
+
+      <div class="warning-cards">
+        <div class="warning-card reveal reveal-delay-1">
+          <span class="warning-icon">📱</span>
+          <h3>Modo Vuelo Activado</h3>
+          <p>No te acerques con el celular en la mano. Jorge tiene una habilidad sobrenatural para arrebatártelo en un parpadeo. Tu smartphone pasará a "modo vuelo"… literalmente.</p>
+          <span class="warning-badge">Alto riesgo</span>
+        </div>
+        <div class="warning-card reveal reveal-delay-2">
+          <span class="warning-icon">💍</span>
+          <h3>Sin Accesorios</h3>
+          <p>Aritos, pulseras, anillos, anteojos — todo es un juguete potencial para Jorge. Si lo usás puesto y está a su alcance, consideralo suyo. Guardá todo antes de acercarte.</p>
+          <span class="warning-badge">Precaución</span>
+        </div>
+        <div class="warning-card reveal reveal-delay-3">
+          <span class="warning-icon">⚠️</span>
+          <h3>No Lo Rodees</h3>
+          <p>Evitá rodearlo o acorralarlo. Cuando Jorge se siente rodeado, interpreta que lo están atacando y puede reaccionar de forma defensiva. Acercate siempre de frente y con calma.</p>
+          <span class="warning-badge">Importante</span>
+        </div>
+      </div>
+
+      <div class="objects-strip reveal">
+        <p class="objects-label">Objetos que Jorge hará desaparecer</p>
+        <div class="objects-list">
+          <div class="object-item">
+            <span class="obj-icon">📱</span>
+            <span>Celular</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">👓</span>
+            <span>Anteojos</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">💍</span>
+            <span>Anillos</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">📿</span>
+            <span>Pulseras</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">🎒</span>
+            <span>Bolsos</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">🧢</span>
+            <span>Gorras</span>
+          </div>
+          <div class="object-item">
+            <span class="obj-icon">🔑</span>
+            <span>Llaves</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDING -->
+  <section class="section-feeding" id="feeding">
+    <div class="section-inner">
+      <div class="feeding-grid">
+        <div class="feeding-text">
+          <p class="subtitle reveal">Alimentación natural</p>
+          <h2 class="reveal reveal-delay-1">Jorge es<br><em>100% fit</em></h2>
+          <p class="reveal reveal-delay-2">Nada de comida procesada, golosinas ni snacks. Jorge lleva una dieta estrictamente natural basada en frutas frescas. Es más disciplinado con su alimentación que la mayoría de nosotros.</p>
+
+          <div class="do-dont reveal reveal-delay-3">
+            <div class="do-box">
+              <h4>✓ Sí podés darle</h4>
+              <ul>
+                <li>🍌 Bananas</li>
+                <li>🍎 Manzanas</li>
+                <li>🍇 Uvas</li>
+                <li>🍑 Duraznos</li>
+                <li>🍉 Sandías</li>
+              </ul>
+            </div>
+            <div class="dont-box">
+              <h4>✕ Nunca le des</h4>
+              <ul>
+                <li>🍕 Comida rápida</li>
+                <li>🍬 Golosinas</li>
+                <li>🍪 Galletas</li>
+                <li>🥤 Gaseosas</li>
+                <li>🍫 Chocolates</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="fruit-visual reveal">
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍌</span>
+            <span>Banana</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍎</span>
+            <span>Manzana</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍇</span>
+            <span>Uva</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🥭</span>
+            <span>Mango</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍊</span>
+            <span>Naranja</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍑</span>
+            <span>Durazno</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍉</span>
+            <span>Sandía</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍐</span>
+            <span>Pera</span>
+          </div>
+          <div class="fruit-card">
+            <span class="fruit-emoji">🍓</span>
+            <span>Frutilla</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPACE -->
+  <section class="section-space" id="space">
+    <div class="section-inner">
+      <div class="space-content">
+        <div class="space-visual reveal">
+          <div class="space-center">🐒</div>
+          <div class="space-ring space-ring-1"></div>
+          <div class="space-ring space-ring-2"></div>
+        </div>
+        <h2 class="reveal reveal-delay-1">Dale su<br><em>espacio</em></h2>
+        <p class="reveal reveal-delay-2">Jorge necesita sentirse libre y seguro. Acercate siempre con respeto, sin movimientos bruscos ni intentos de atraparlo. Si respetás su espacio, él te va a recibir con toda la onda.</p>
+
+        <div class="space-tips reveal reveal-delay-3">
+          <div class="tip">
+            <div class="tip-number">01</div>
+            <h4>Acercate de frente</h4>
+            <p>Siempre dejá que te vea venir. Nada por los costados ni por detrás.</p>
+          </div>
+          <div class="tip">
+            <div class="tip-number">02</div>
+            <h4>Manos vacías</h4>
+            <p>Guardá todo en tu mochila o bolsillos antes de interactuar con él.</p>
+          </div>
+          <div class="tip">
+            <div class="tip-number">03</div>
+            <h4>Sin rodear</h4>
+            <p>No lo acorrales ni vayas en grupo. Uno a la vez, con calma y paciencia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">JORGE</div>
+    <p class="footer-tagline">Respetá sus reglas — disfrutá su compañía</p>
+    <p class="footer-note">Hecho con ❤ · Por los Voluntarios de un Viaje con Impacto ft. @basurachallengeparaguay @encontremonos.py — 2026 ·</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
