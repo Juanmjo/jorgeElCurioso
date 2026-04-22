@@ -777,10 +777,13 @@
      .hero-emoji {
          font-size: 80px;
     }
-     .fruit-visual {
+    .fruit-visual {
+         display: none;
+    }
+     /*.fruit-visual {
          grid-template-columns: repeat(3, 1fr);
          gap: 10px;
-    }
+    }*/
 }
  @media (max-width: 600px) {
      .fruit-visual {
